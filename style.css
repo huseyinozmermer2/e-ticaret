@@ -1,0 +1,102 @@
+.tab-review{
+	margin:20px 0;
+}
+/**---------------tab Set------------------------------------------**/
+.shop-tab li a{
+	background:#D2D9DF;
+	color: #474C52;
+	border:none;
+	font-size: 16px;
+}
+.shop-tab li a:hover{
+	background:#ffffff;
+	color: #474C52;
+	border:none !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+	background-color: #FFF;
+	border:none;
+}
+.shop-tab li{
+	margin-left:10px;
+}
+.shop-tab li:first-child{
+	margin-left:0;
+}
+.shop-tab-ct{
+	background:#ffffff;
+	box-shadow:1px 1px 0px rgba(0,0,0, .1);
+	padding:20px;
+	border-radius:0 5px 5px 5px;
+}
+.shop-tab-ct p{
+	color: #798086 !important;
+	font-size: 13px !important;
+	line-height:1.5em;
+	padding:15px 0;
+}
+.shop-tab-ct p span{
+	color: #474C52;
+}
+.dash{
+	border-bottom: 1px dashed #C2CBD3;
+}
+.shop-tab-ct h4 {
+	color: #474C52;
+	font-size: 18px;
+	text-shadow: 0 1px 0 #FFF;
+	font-weight:700;
+}
+.shop-tab-ct input, .shop-tab-ct input:focus{
+	max-width:300px;
+	border:none;
+	border-radius:3px;
+	box-shadow:1px 1px 0px rgba(0,0,0, .2);
+	background:#EAEEF0;
+}
+.shop-tab-ct textarea, .shop-tab-ct textarea:focus{
+	border:none;
+	border-radius:3px;
+	box-shadow:1px 1px 0px rgba(0,0,0, .2);
+	background:#EAEEF0;
+	height:100px;
+}
+
+.shop-tab-ct{
+	background:#ffffff;
+	box-shadow:1px 1px 0px rgba(0,0,0, .1);
+	padding:20px;
+	border-radius:0 5px 5px 5px;
+}
+.shop-tab-ct p{
+	color: #798086 !important;
+	font-size: 13px !important;
+	line-height:1.5em;
+	padding:15px 0;
+}
+.shop-tab-ct p span{
+	color: #474C52;
+}
+.dash{
+	border-bottom: 1px dashed #C2CBD3;
+}
+.shop-tab-ct h4 {
+	color: #474C52;
+	font-size: 18px;
+	text-shadow: 0 1px 0 #FFF;
+	font-weight:700;
+}
+.shop-tab-ct input, .shop-tab-ct input:focus{
+	max-width:300px;
+	border:none;
+	border-radius:3px;
+	box-shadow:1px 1px 0px rgba(0,0,0, .2);
+	background:#EAEEF0;
+}
+.shop-tab-ct textarea, .shop-tab-ct textarea:focus{
+	border:none;
+	border-radius:3px;
+	box-shadow:1px 1px 0px rgba(0,0,0, .2);
+	background:#EAEEF0;
+	height:100px;
+}

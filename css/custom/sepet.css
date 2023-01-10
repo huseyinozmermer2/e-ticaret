@@ -1,0 +1,110 @@
+.pushtop15 .continue{
+    background-color: rgb(236, 150, 52) ;
+    color: white;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.pushtop15 .continue:hover{
+    background-color: rgb(165, 69, 52) ;
+    color: white;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+
+.pushtop1 .cartText{
+    color: rgb(165, 69, 52) ;
+    font-weight: 600;
+}
+
+#product_card{
+    margin-top: 10rem;
+}
+#product_card .product_img{
+    border-radius: 10px;
+    border: none;
+    height: 320px;
+    width: 450px;
+}
+#product_card .heading {
+font-size: 2rem;
+font-weight: 700;
+line-height: 2rem;
+margin-bottom: 1rem;
+font-family: "Montserrat", sans-serif;
+}
+#product_card .sub {
+margin-top: 2rem;
+font-size: 1.5rem;
+line-height: 2rem;
+margin-bottom: 1rem;
+color: rgb(231, 133, 77);
+font-family: "Montserrat", sans-serif;
+}
+#product_card .subtr {
+margin-top: 5rem;
+font-size: 1rem;
+line-height: 2rem;
+margin-bottom: 1rem;
+font-family: "Montserrat", sans-serif;
+}
+.numbers div:hover
+{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.numbers
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0.5rem;
+    width: 400px;
+    cursor: pointer;
+    
+}
+
+.numbers div
+{
+    padding: 0.5rem ;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    margin-right: 0.2rem;
+}
+
+.pushtop2{
+    margin-top: 3rem;
+}
+
+input[type="button"]{
+width: 40px;
+height: 40px;
+background: #fdfdfd;
+color:#f09d65;
+margin-right: 0.5rem;
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.pushtop2 .continue{
+background-color: rgb(236, 150, 52) ;
+color: white;
+font-weight: 600;
+}
+
+.pushtop2 .continue:hover{
+background-color: rgb(165, 69, 52) ;
+color: white;
+font-weight: 700;
+}
+
+
+/* lg ve altı ekranlarda */
+@media(max-width:991.98px) {
+
+}
+
+
+/* lg ve üstü ekranlarda */
+@media(min-width:992px) {
+
+}

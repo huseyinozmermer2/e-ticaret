@@ -1,0 +1,102 @@
+header.imgheadCover {
+    background-image: url("../../img/Alışveriş-Sepetim.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+header.imgheadCover .backImage-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-top: 5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btnLogin{
+    background-color: rgb(236, 150, 52) ;
+    color: white;
+    font-weight: 600;
+    width: 150px;
+
+}
+
+.btnLogin:hover{
+    background-color: rgb(165, 69, 52) ;
+    color: white;
+    font-weight: 700;
+}
+#newMember h2{
+    margin-left: 32%;
+    font-size: 30px;
+    margin-top: 1rem;
+    font-family: "Roboto Slab", sans-serif;
+}
+#newMember .newmember{
+    margin-left: 30%;
+    
+}
+
+#newMember .newmember  .form-control{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    width: 400px;
+  
+}
+
+#newMember .form-control:focus{
+    box-shadow: 1px 1px 10px #0f0f0f;
+}
+
+#newMember .newmember label{
+    padding-top: 1rem;
+    
+}
+
+#newMember .newmember #exampleCheck1{
+    margin-top: 1.5rem;
+    width: 20px;
+    height: 20px;
+    color: #0f0f09;
+}
+#newMember .newmember .form-check a{
+    font-size: 15px;
+    font-family: "Roboto Slab", sans-serif;
+    text-decoration:none;
+    color: rgb(15, 15, 15);
+}
+
+#newMember #BtnContact{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(236, 150, 52) ;
+    color: white;
+}
+
+#newMember #BtnContact:hover{
+    background-color: rgb(165, 69, 52) ;
+    color: white;
+}
+
+@media(max-width:991.98px) {
+    header.imgheadCover {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #newMember .newmember{
+        margin-left: 0;
+        justify-items: center;
+        
+    }
+
+}
+
+@media(min-width:992px) {
+    header.imgheadCover {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+}
+

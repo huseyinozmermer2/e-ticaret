@@ -1,0 +1,99 @@
+/*  Contact start */
+.myContact{
+    padding: 5rem 0;
+}
+
+.myContact .contact1{
+    font-size: 1.5rem;
+    color: #964b00;
+    margin-top: 3rem;
+    font-weight: 600;
+    font-family: "Montserrrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.myContact .contact2{
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(15, 15, 15);
+    font-family: "RobotoSlab", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.myContact .contact4{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.myContact .contac3{
+    font-size: 2rem;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 10rem;
+    font-family: "Montserrrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#contact{
+    background-color: #432630;
+    background-repeat: no-repeat;
+    background-image: url(../../img/map.png);
+    background-position: center;
+}
+
+#contact .BtnContact{
+    padding-bottom: 5rem;
+}
+
+#contact input{
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+}
+
+#contact .form-textarea{
+    height: 93%;
+}
+
+#contact .form-textarea textarea{
+    height: 100%;
+    min-height: 10rem;
+}
+/*  focus ile odaklandığı anda gölgelendirme vermeye yarıyor */
+#contact .form-control:focus{
+    box-shadow: 1px 1px 10px #d8df0b;
+}
+
+
+
+
+#bedroom{
+    width: 600px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#article {
+    text-align: center; margin: 0 auto;}
+
+.ac {color: blue;}
+.kapat {color: red;}
+
+
+/* lg ve üstü ekranlarda */
+@media(min-width:992px) {
+
+}
+
+/* lg ve altı ekranlarda */
+@media(max-width:991.98px) {
+    .myContact{
+        margin-bottom: 5rem;
+    }
+    .myContact .contact4{
+        width: 90%;
+        height: 90%;
+    }
+}

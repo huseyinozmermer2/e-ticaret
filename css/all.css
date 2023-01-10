@@ -1,0 +1,58 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@100;300;400;700&display=swap');
+
+/* core bootstrap */
+@import url("bootstrap/bootstrap.min.css");
+
+/* navbar css */
+@import url("custom/navbar.css");
+
+/* header css */
+@import url("custom/header.css");
+
+/* Anasayfa css */
+@import url("custom/homepage.css");
+
+/* About */
+@import url("custom/about.css");
+
+/* production */
+@import url("custom/production.css");
+
+/* blog */
+@import url("custom/blog.css");
+
+/* contact css */
+@import url("custom/contact.css");
+
+
+@import url("custom/newMember.css");
+
+/* sepet */
+@import url("custom/sepet.css");
+
+/*  111 css */
+@import url("custom/111.css");
+
+/* Product */
+@import url("custom/product.css");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

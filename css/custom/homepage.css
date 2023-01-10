@@ -1,0 +1,195 @@
+
+header.homepage {
+    background-image: url("../../img/header.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+header.homepage .homepage-sub {
+    font-style: italic;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    
+}
+
+header.homepage .homepage-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header.homepage .nav-item .nav-link{
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+header.homepage .nav-item .nav-link.active,
+header.homepage .nav-item .nav-link:hover{
+    color: #fa836a;
+}
+
+/* product */
+#product .p-item {
+    max-width: 400rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#product .p-item .p-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#product .p-item .p-link .p-hover {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(21, 22, 23, 0.75);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.3s;
+    -webkit-transition: opacity ease-in-out 0.3s;
+    -moz-transition: opacity ease-in-out 0.3s;
+    -ms-transition: opacity ease-in-out 0.3s;
+    -o-transition: opacity ease-in-out 0.3s;
+}
+
+#product .p-item .p-link .p-hover .ph-content {
+    font-size: 1rem;
+}
+
+#product .p-item .p-link:hover .p-hover {
+    opacity: 1;
+}
+
+#product .p-item .p-caption .pc-heading {
+    font-size: 1.2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+#product .p-item .p-caption .pc-subheading {
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.product2 h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.product2 p{
+    margin-bottom: 2rem;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.lazyload1 .lazyload{
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration:none;
+    color: rgb(75, 74, 74);
+}
+.lazyload1 .lazyload:hover{
+    color: rgb(223, 134, 26);
+}
+
+
+.product0 h2{
+    font-size: 20px;
+    padding-bottom: 0;
+    font-family: "Roboto Slab", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.product0 .nav-item{
+    list-style-type: none;         
+   
+}
+
+.product0 .nav-item .nav-link{
+    margin: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+    font-size: 14px;
+    font-family: "Roboto Slab", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(133, 132, 132);
+}
+.product0 .nav-item .nav-link.active,
+.product0 .nav-item .nav-link:hover
+{
+    color: #fa836a;
+}
+.product0 .nav-item .nav-link i{
+    margin-right: 0.5rem;
+color: #fa836a;
+}
+
+.product0 .contact{
+    margin: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+    font-size: 14px;
+    font-family: "Roboto Slab", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(133, 132, 132);
+}
+
+/* lg ve altı ekranlarda */
+@media(max-width:991.98px) {
+    header.homepage {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    header.homepage .homepage-heading {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .lazyload1 .lazyload{
+        font-size: 1rem;
+        font-weight: 500;
+        font-style: italic;
+        text-decoration:none;
+        color: rgb(75, 74, 74);
+    }
+
+    .product0 ul{
+        align-items: center;         
+       
+    }
+    .product0 h2{
+        align-items: center;         
+       
+    }
+
+}
+
+/* lg ve üstü ekranlarda */
+@media(min-width:992px) {
+    header.homepage {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .product0 ul{
+        align-items: baseline;       
+       
+    }
+    .product0 h2{
+        text-align: start;        
+       
+    }
+}
