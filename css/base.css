@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0 25px;
+    line-height: 40px;
+    font-weight: 500;
+    border: 1px solid black;
+    transition: .2s ease all;
+}
+
+.btn-sm {
+    line-height: 33px;
+}
+
+.btn-lg {
+    line-height: 45px;
+}
+
+.btn-green {
+    background-color: #558063;
+    color: #fff;
+    border-color: #558063;
+}
+
+.btn-green:hover {
+    background-color: #fff;
+    color: #558063;
+}
+.btn-white {
+    background-color: #FFF;
+    color: #777777;
+    border-color: #FFF;
+}
+
+.btn-white:hover {
+    background-color: #777777;
+    color: #FFF;
+}
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.btn-black:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="number"]{
+  outline: none;
+  border: 1px solid #dee0ea;
+  padding: 8px 8px 8px 15px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus{
+  border-color: gray;
+}
+
+input[type="number"]::-webkit-inner-spin-button{
+  opacity: 1;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 0.8;
+    margin-bottom: 4px;
+  }
+
+/*! baseresponsive start  */
+@media (max-width: 992px) {
+    .logo {
+        width: 200px;
+        height: auto;
+    }
+}
+@media (max-width: 450px) {
+    .logo {
+        width: 150px;
+        height: auto;
+    }
+}
+/*! baseresponsive end  */
+

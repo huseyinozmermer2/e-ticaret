@@ -1,0 +1,46 @@
+.order-page {
+    margin: 30px 0;
+}
+
+.order-page-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/*! order form start  */
+
+.order-page .order-form {
+    flex-basis: 60%;
+}
+
+/*? table start  */
+
+.order-form table> :not(caption)>*>* {
+    padding: 8px 0;
+}
+
+.order-form table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 14px;
+    min-width: 595px;
+}
+
+.order-form table thead th {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.order-form table tbody tr{
+    text-align: center;
+}
+.order-form table tbody {
+    border-top: 1px solid #cecece;
+}
+
+.order-form table tbody .order-item {
+    border-bottom: 1px solid #cecece;
+}
+
+/*? table end  */

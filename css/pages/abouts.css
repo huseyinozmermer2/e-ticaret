@@ -1,0 +1,14 @@
+.abouts{
+    margin: 30px 0;
+}
+.abouts-wrapper h2{
+    font-size: 25px;
+    margin: 30px 0;
+}
+.abouts-wrapper p{
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #777777;
+    text-align: justify;
+}
